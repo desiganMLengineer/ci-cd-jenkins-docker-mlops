@@ -5,7 +5,7 @@ Welcome to my portfolio It's My First Devops Project! This repository demonstrat
 If you've ever wondered how modern tech companies automatically test machine learning code, build secure software containers, and deploy ML models live the exact second a developer pushes a git commit—this project builds that exact workflow locally using **Jenkins, Docker, Python, Scikit-Learn, GitHub Webhooks, Ngrok, and Linux**.
 
 
-## 🚀 What Problem Does This Solve?
+##  What Problem Does This Solve?
 
 In traditional software development and machine learning, data scientists train models on their laptops, but moving those models into production is often manual, messy, and prone to breaking. This leads to the infamous phrase: *"It worked on my machine!"*
 
@@ -28,7 +28,7 @@ Here is the exact technology stack used to power this project:
 * **Operating System:** Linux (Ubuntu via VirtualBox CLI).
 
 
-## 📊 End-to-End Architecture Flow
+##  End-to-End Architecture Flow
 
 ```text
 [ Developer / Git Push ] 
@@ -51,7 +51,9 @@ ci-cd-jenkins-docker-mlops/
 ├── Jenkinsfile          # Declarative multi-stage CI/CD pipeline script
 ├── requirements.txt     # Python package dependencies (Flask, Pytest, Scikit-Learn)
 └── README.md            # Project documentation
+
 ⚙️ Step-by-Step Pipeline Breakdown (A to Z)
+
 Every stage in the Jenkinsfile serves a specific purpose in ensuring production-grade reliability:
 
 1. Checkout Code
@@ -74,7 +76,8 @@ What happens: The pipeline executes shell commands to safely stop and remove any
 
 Real-world analogy: Swapping out an old machinery part in a factory line with a brand new, pre-tested upgrade with zero downtime.
 
-🧪 How to Verify and Run Locally
+# How to Verify and Run Locally
+
 If you want to spin up or test this project on your own local Ubuntu environment:
 
 Clone the Repository:
@@ -99,6 +102,6 @@ Test the Live ML Inference Endpoint:
 Bash
 curl http://localhost:5001/
 👤 Author
-Desigan — B.Tech IT Graduate & Devops Engineering / MLOps Engineer
+Desigapperumal N — B.Tech IT 2026 Graduate & Devops Engineering / MLOps Engineer
 
  GitHub Profile - github.com/desiganMLengineer
