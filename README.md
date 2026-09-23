@@ -102,6 +102,6 @@ Test the Live ML Inference Endpoint:
 Bash
 curl http://localhost:5001/
 👤 Author
-Desigapperumal N — B.Tech IT 2026 Graduate & Devops Engineering / MLOps Engineer
+Desigapperumal N — B.Tech IT 2026 Graduate & aspiring Devops Engineer / MLOps Engineer
 
  GitHub Profile - github.com/desiganMLengineer
